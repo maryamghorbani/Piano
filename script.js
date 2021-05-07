@@ -1,3 +1,13 @@
+const note = document.querySelector('.nowplaying');
+
+
 window.addEventListener('keydown', function (e) {
-    console.log(e);
+    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
+    if (!key) return;
+
+    const keyNote = key.getAttribute('data-note');
+    console.log(keyNote);
+
+    note.innerHTML = keyNote;
+
 });

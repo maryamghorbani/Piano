@@ -13,7 +13,7 @@ header:after {
   content: '';
   width: 460px;
   height: 15px;
-  background: url(images/intro-div.svg) no-repeat center;
+  /*background: url(images/intro-div.svg) no-repeat center;*/
   display: inline-block;
   text-align: center;
   background-size: 70%;
